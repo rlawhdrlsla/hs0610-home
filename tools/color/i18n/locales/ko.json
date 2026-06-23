@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "allTools": "전체 툴",
+    "hexRgb": "HEX ↔ RGB",
+    "rgbHsl": "RGB ↔ HSL",
+    "palette": "팔레트 생성기",
+    "imageColors": "이미지 색상 추출",
+    "contrast": "대비 검사기",
+    "gradient": "그라디언트 만들기",
+    "mixer": "색상 혼합기",
+    "namedColors": "CSS 색상 이름"
+  },
+  "home": {
+    "badge": "8가지 무료 색상 툴",
+    "title1": "디자이너와 개발자를 위한",
+    "title2": "색상 도구 모음",
+    "subtitle": "색상 변환, 생성, 탐색을 한 곳에서. HEX, RGB, HSL, 팔레트, 그라디언트 — 모두 무료, 회원가입 불필요.",
+    "tools": {
+      "hexRgb": { "label": "HEX ↔ RGB 변환기", "desc": "HEX 색상 코드와 RGB 값을 즉시 변환합니다." },
+      "rgbHsl": { "label": "RGB ↔ HSL 변환기", "desc": "RGB와 HSL 색상 모델 간 변환을 지원합니다." },
+      "palette": { "label": "팔레트 생성기", "desc": "보색, 유사색, 삼각형, 사각형 배색을 자동으로 생성합니다." },
+      "imageColors": { "label": "이미지 색상 추출", "desc": "이미지를 업로드하면 주요 색상을 추출해 드립니다." },
+      "contrast": { "label": "대비 검사기", "desc": "두 색상의 WCAG 대비율을 확인해 접근성을 검증합니다." },
+      "gradient": { "label": "그라디언트 만들기", "desc": "CSS 그라디언트를 시각적으로 만들고 코드를 복사하세요." },
+      "mixer": { "label": "색상 혼합기", "desc": "두 색상을 다양한 비율로 섞어 결과를 확인합니다." },
+      "namedColors": { "label": "CSS 색상 이름", "desc": "140가지 CSS 색상 이름의 HEX 및 RGB 값을 확인하세요." }
+    },
+    "features": {
+      "free": { "title": "완전 무료", "desc": "모든 툴을 영구적으로 무료로 사용할 수 있습니다." },
+      "noLogin": { "title": "로그인 불필요", "desc": "계정 생성 없이 바로 사용할 수 있습니다." },
+      "privacy": { "title": "개인정보 보호", "desc": "이미지 처리는 브라우저에서만 이루어집니다. 서버에 업로드되지 않습니다." }
+    },
+    "openTool": "툴 열기"
+  },
+  "footer": {
+    "tagline": "디자이너와 개발자를 위한 무료 색상 도구 모음.",
+    "tools": "툴",
+    "moreTools": "더 많은 툴",
+    "company": "회사",
+    "about": "소개",
+    "privacy": "개인정보 처리방침",
+    "terms": "서비스 이용약관",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "copy": "복사",
+    "copied": "복사됨!",
+    "copyAll": "전체 복사",
+    "allCopied": "전체 색상이 복사되었습니다!",
+    "output": "출력",
+    "allValues": "전체 값",
+    "about": "정보"
+  },
+  "hexRgb": {
+    "title": "HEX ↔ RGB 변환기",
+    "desc": "HEX 색상 코드와 RGB 값을 실시간으로 변환합니다.",
+    "hex": "HEX",
+    "rgb": "RGB",
+    "copyHex": "HEX 복사",
+    "copyRgb": "RGB 복사",
+    "guide": {
+      "title": "HEX와 RGB에 대해",
+      "body": "HEX 색상 코드(예: #7c3aed)는 CSS와 디자인 툴에서 널리 사용됩니다. 두 자리씩 Red, Green, Blue 채널을 나타내며 값은 0(00)~255(FF)입니다. RGB 표기(예: rgb(124, 58, 237))는 같은 세 채널을 10진수로 표현하며 코드에서 다루기 더 직관적입니다."
+    }
+  },
+  "rgbHsl": {
+    "title": "RGB ↔ HSL 변환기",
+    "desc": "RGB와 HSL 색상 모델 간 변환을 인터랙티브하게 지원합니다.",
+    "guide": {
+      "title": "HSL에 대해",
+      "body": "H(색조)는 색상환의 각도(0~360°), S(채도)는 색의 선명도(0% = 회색, 100% = 선명), L(밝기)는 명도(0% = 검정, 100% = 흰색)를 나타냅니다. RGB보다 직관적으로 색상을 조절하고 싶을 때 유용합니다."
+    }
+  },
+  "palette": {
+    "title": "색상 팔레트 생성기",
+    "desc": "기본 색상을 입력하면 조화로운 색상 팔레트를 생성합니다.",
+    "complementary": "보색",
+    "analogous": "유사색",
+    "triadic": "삼색 배색",
+    "splitComplementary": "분할 보색",
+    "tetradic": "사색 배색",
+    "shades": "명도 변화",
+    "guide": {
+      "title": "색상 조화 가이드",
+      "complementary": "색상환에서 반대편에 위치한 색상. 강한 대비 효과.",
+      "analogous": "색상환에서 인접한 색상. 자연스럽고 조화로운 느낌.",
+      "triadic": "균등한 간격의 세 가지 색상. 생동감 있고 균형 잡힌 배색.",
+      "split": "기본색 + 보색 인접 두 색상. 보색보다 부드러운 대비.",
+      "tetradic": "두 쌍의 보색으로 이루어진 네 가지 색상. 풍부하고 복잡한 배색."
+    }
+  },
+  "imageColors": {
+    "title": "이미지 색상 추출기",
+    "desc": "이미지를 업로드하면 주요 색상을 추출합니다. 모든 처리는 브라우저에서 이루어지며 서버에 업로드되지 않습니다.",
+    "dropLabel": "이미지를 여기에 드롭하거나 클릭해서 업로드하세요",
+    "dropSub": "JPG, PNG, WebP, GIF 지원",
+    "extracted": "추출된 색상",
+    "allHex": "전체 HEX 코드",
+    "guide": {
+      "title": "작동 원리",
+      "body": "이미지를 보이지 않는 캔버스에 그린 후 픽셀 색상을 샘플링하고 그룹화하여 가장 많이 사용된 색상을 찾습니다. Canvas API를 통해 브라우저에서만 처리되며 이미지는 기기 밖으로 나가지 않습니다."
+    }
+  },
+  "contrast": {
+    "title": "색상 대비 검사기",
+    "desc": "WCAG 2.1 기준에 따른 색상 대비율을 확인합니다.",
+    "foreground": "전경색 (텍스트)",
+    "background": "배경색",
+    "ratio": "대비율",
+    "pass": "통과",
+    "fail": "미달",
+    "guide": {
+      "title": "WCAG 대비 기준",
+      "aa": "AA는 최소 기준입니다. 일반 텍스트는 4.5:1 이상, 큰 텍스트는 3:1 이상이 필요합니다.",
+      "aaa": "AAA는 강화된 기준으로, 일반 텍스트 7:1 이상, 큰 텍스트 4.5:1 이상이 필요합니다."
+    }
+  },
+  "gradient": {
+    "title": "그라디언트 만들기",
+    "desc": "CSS 그라디언트를 시각적으로 만들고 코드를 복사하세요.",
+    "linear": "선형",
+    "radial": "방사형",
+    "direction": "방향",
+    "colorStops": "색상 포인트",
+    "addStop": "포인트 추가",
+    "cssCode": "CSS 코드",
+    "copyCss": "CSS 복사",
+    "gradientOnly": "그라디언트 값만",
+    "tailwind": "Tailwind (임의값)"
+  },
+  "mixer": {
+    "title": "색상 혼합기",
+    "desc": "두 가지 색상을 다양한 비율로 섞어 결과를 확인합니다.",
+    "colorA": "색상 A",
+    "colorB": "색상 B",
+    "mixRatio": "혼합 비율",
+    "allSteps": "전체 혼합 단계",
+    "clickToCopy": "스와치를 클릭하면 HEX 코드가 복사됩니다"
+  },
+  "namedColors": {
+    "title": "CSS 색상 이름",
+    "desc": "140가지 CSS 색상 이름의 HEX 및 RGB 값. 클릭하면 복사됩니다.",
+    "search": "이름 또는 HEX로 검색...",
+    "showing": "{{count}}개 색상 표시 중"
+  },
+  "about": {
+    "title": "ColorKit 소개",
+    "intro": "ColorKit은 디자이너, 개발자 및 색상을 다루는 모든 분들을 위한 무료 온라인 색상 도구 모음입니다. 색상 변환과 탐색을 빠르고 간편하게 — 계정 없이, 비용 없이 누구나 사용할 수 있도록 만들었습니다.",
+    "offerTitle": "제공 기능",
+    "privacyTitle": "개인정보 보호",
+    "privacyBody": "모든 처리는 브라우저에서 이루어집니다. 이미지 색상 추출 기능을 사용하실 때 이미지는 서버에 전송되지 않으며 Canvas API를 통해 기기 내에서만 처리됩니다.",
+    "contactTitle": "문의",
+    "contactBody": "기능 제안이나 불편한 점이 있으시면 언제든지 연락해 주세요."
+  },
+  "privacy": {
+    "title": "개인정보 처리방침",
+    "updated": "최종 업데이트: 2026년 3월",
+    "collectTitle": "수집하는 정보",
+    "collectBody": "ColorKit은 개인정보를 수집하지 않습니다. 회원가입이 필요하지 않으며 사용자 데이터를 서버에 저장하지 않습니다.",
+    "imageTitle": "이미지 처리",
+    "imageBody": "이미지 색상 추출 기능은 HTML5 Canvas API를 사용하여 브라우저 내에서만 처리됩니다. 이미지 데이터는 서버에 전송되거나 저장되지 않습니다.",
+    "cookiesTitle": "쿠키 및 분석",
+    "cookiesBody": "사이트 이용 현황 파악을 위해 익명 분석 데이터를 사용할 수 있습니다. 이 데이터는 집계되며 개인을 식별하는 데 사용될 수 없습니다. Google AdSense 광고가 표시될 수 있으며, 이 경우 Google의 개인정보처리방침에 따라 쿠키가 사용될 수 있습니다.",
+    "thirdTitle": "제3자 서비스",
+    "thirdBody": "광고 표시를 위해 Google AdSense를 사용합니다. Google은 이 사이트 및 다른 사이트 방문을 기반으로 맞춤 광고를 제공하기 위해 쿠키를 사용할 수 있습니다.",
+    "contactTitle": "문의",
+    "contactBody": "개인정보 처리방침에 대해 궁금한 점이 있으시면 편하게 연락해 주세요."
+  },
+  "terms": {
+    "title": "서비스 이용약관",
+    "updated": "최종 업데이트: 2026년 3월",
+    "acceptTitle": "약관 동의",
+    "acceptBody": "ColorKit을 이용하시면 본 약관에 동의하는 것으로 간주됩니다. 동의하지 않으시는 경우 서비스를 이용하지 않으실 수 있습니다.",
+    "useTitle": "서비스 이용",
+    "useBody": "ColorKit은 개인 및 상업적 목적으로 무료로 제공됩니다. 변환된 값, 생성된 팔레트, CSS 코드 등 툴의 결과물은 제한 없이 프로젝트에 활용하실 수 있습니다.",
+    "disclaimerTitle": "면책 조항",
+    "disclaimerBody": "ColorKit은 어떠한 보증도 없이 있는 그대로 제공됩니다. 툴 결과물의 정확성이나 완전성을 보장하지 않으므로, 실제 프로덕션 환경에 적용하기 전에 검토하시기를 권장합니다.",
+    "liabilityTitle": "책임의 제한",
+    "liabilityBody": "ColorKit은 서비스 이용으로 인해 발생하는 직접적, 간접적, 부수적 또는 결과적 손해에 대해 책임을 지지 않습니다.",
+    "changesTitle": "약관 변경",
+    "changesBody": "당사는 언제든지 약관을 수정할 권리를 보유합니다. 변경 후 서비스를 계속 이용하시면 변경된 약관에 동의하신 것으로 간주됩니다.",
+    "contactTitle": "문의",
+    "contactBody": "약관에 대해 궁금한 점이 있으시면 편하게 연락해 주세요."
+  }
+}

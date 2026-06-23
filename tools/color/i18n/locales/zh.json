@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "allTools": "全部工具",
+    "hexRgb": "HEX ↔ RGB",
+    "rgbHsl": "RGB ↔ HSL",
+    "palette": "调色板生成",
+    "imageColors": "图片取色",
+    "contrast": "对比度检查",
+    "gradient": "渐变生成",
+    "mixer": "颜色混合",
+    "namedColors": "CSS 颜色名称"
+  },
+  "home": {
+    "badge": "8个免费颜色工具",
+    "title1": "为设计师和开发者打造的",
+    "title2": "颜色工具集",
+    "subtitle": "颜色转换、生成与探索，一站搞定。HEX、RGB、HSL、调色板、渐变 — 全部免费，无需注册。",
+    "tools": {
+      "hexRgb": { "label": "HEX ↔ RGB 转换", "desc": "即时转换 HEX 颜色代码与 RGB 值。" },
+      "rgbHsl": { "label": "RGB ↔ HSL 转换", "desc": "在 RGB 和 HSL 颜色模型之间进行转换。" },
+      "palette": { "label": "调色板生成", "desc": "自动生成互补色、类似色、三色及四色配色方案。" },
+      "imageColors": { "label": "图片取色", "desc": "上传图片，提取主要颜色。" },
+      "contrast": { "label": "对比度检查", "desc": "检查两种颜色的 WCAG 对比度，验证无障碍性。" },
+      "gradient": { "label": "渐变生成", "desc": "可视化创建 CSS 渐变并复制代码。" },
+      "mixer": { "label": "颜色混合", "desc": "以不同比例混合两种颜色，查看结果。" },
+      "namedColors": { "label": "CSS 颜色名称", "desc": "浏览 140 种 CSS 颜色名称及其 HEX 和 RGB 值。" }
+    },
+    "features": {
+      "free": { "title": "完全免费", "desc": "所有工具永久免费使用。" },
+      "noLogin": { "title": "无需登录", "desc": "无需注册账号，即可直接使用。" },
+      "privacy": { "title": "隐私优先", "desc": "图片处理在浏览器内完成，不会上传至服务器。" }
+    },
+    "openTool": "打开工具"
+  },
+  "footer": {
+    "tagline": "为设计师和开发者提供的免费在线颜色工具集。",
+    "tools": "工具",
+    "moreTools": "更多工具",
+    "company": "公司",
+    "about": "关于我们",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "copy": "复制",
+    "copied": "已复制！",
+    "copyAll": "复制全部",
+    "allCopied": "已复制全部颜色！",
+    "output": "输出",
+    "allValues": "所有值",
+    "about": "关于"
+  },
+  "hexRgb": {
+    "title": "HEX ↔ RGB 转换",
+    "desc": "实时转换 HEX 颜色代码与 RGB 值。",
+    "hex": "HEX",
+    "rgb": "RGB",
+    "copyHex": "复制 HEX",
+    "copyRgb": "复制 RGB",
+    "guide": {
+      "title": "关于 HEX 与 RGB",
+      "body": "HEX 颜色代码（如 #7c3aed）在 CSS 和设计工具中被广泛使用。每两位十六进制数字代表红、绿、蓝通道的值，范围从 0（00）到 255（FF）。RGB 表示法（如 rgb(124, 58, 237)）用十进制整数表示相同的三个通道，在编程中更易于处理。"
+    }
+  },
+  "rgbHsl": {
+    "title": "RGB ↔ HSL 转换",
+    "desc": "交互式地在 RGB 和 HSL 颜色模型之间进行转换。",
+    "guide": {
+      "title": "关于 HSL",
+      "body": "H（色相）是色轮上的角度（0–360°），S（饱和度）控制色彩强度（0%=灰色，100%=鲜艳），L（亮度）控制明暗（0%=黑色，100%=白色）。当需要直观调整颜色的明暗或鲜艳程度时，HSL 比 RGB 更加方便。"
+    }
+  },
+  "palette": {
+    "title": "颜色调色板生成",
+    "desc": "输入基础颜色，自动生成和谐的配色方案。",
+    "complementary": "互补色",
+    "analogous": "类似色",
+    "triadic": "三色配色",
+    "splitComplementary": "分裂互补色",
+    "tetradic": "四色配色",
+    "shades": "明度变化",
+    "guide": {
+      "title": "色彩和谐指南",
+      "complementary": "色轮上相对的颜色，对比强烈。",
+      "analogous": "色轮上相邻的颜色，自然和谐。",
+      "triadic": "均匀分布的三种颜色，生动而平衡。",
+      "split": "基础色 + 互补色两侧的颜色，对比较互补色更柔和。",
+      "tetradic": "两组互补色构成的四种颜色，丰富而复杂。"
+    }
+  },
+  "imageColors": {
+    "title": "图片颜色提取",
+    "desc": "上传图片提取主要颜色。所有处理在浏览器内完成，不会上传至服务器。",
+    "dropLabel": "将图片拖放至此处，或点击上传",
+    "dropSub": "支持 JPG、PNG、WebP、GIF",
+    "extracted": "提取的颜色",
+    "allHex": "全部 HEX 代码",
+    "guide": {
+      "title": "工作原理",
+      "body": "图片被绘制到不可见的画布上，对像素颜色进行采样和量化后按频率分组，找出最主要的颜色。全程使用 Canvas API 在浏览器内处理，图片不会离开您的设备。"
+    }
+  },
+  "contrast": {
+    "title": "颜色对比度检查",
+    "desc": "检查符合 WCAG 2.1 无障碍标准的颜色对比度。",
+    "foreground": "前景色（文字）",
+    "background": "背景色",
+    "ratio": "对比度",
+    "pass": "通过",
+    "fail": "未通过",
+    "guide": {
+      "title": "WCAG 对比度标准",
+      "aa": "AA 是最低标准。普通文字需要至少 4.5:1，大号文字需要 3:1。",
+      "aaa": "AAA 是增强标准，普通文字需要 7:1，大号文字需要 4.5:1。"
+    }
+  },
+  "gradient": {
+    "title": "渐变生成",
+    "desc": "可视化创建 CSS 渐变并复制代码。",
+    "linear": "线性",
+    "radial": "径向",
+    "direction": "方向",
+    "colorStops": "颜色节点",
+    "addStop": "添加节点",
+    "cssCode": "CSS 代码",
+    "copyCss": "复制 CSS",
+    "gradientOnly": "仅渐变值",
+    "tailwind": "Tailwind（任意值）"
+  },
+  "mixer": {
+    "title": "颜色混合",
+    "desc": "以不同比例混合两种颜色，查看结果。",
+    "colorA": "颜色 A",
+    "colorB": "颜色 B",
+    "mixRatio": "混合比例",
+    "allSteps": "全部混合步骤",
+    "clickToCopy": "点击任意色块即可复制 HEX 代码"
+  },
+  "namedColors": {
+    "title": "CSS 颜色名称",
+    "desc": "140 种 CSS 颜色名称的 HEX 和 RGB 值，点击即可复制。",
+    "search": "按名称或 HEX 搜索...",
+    "showing": "显示 {{count}} 种颜色"
+  },
+  "about": {
+    "title": "关于 ColorKit",
+    "intro": "ColorKit 是为设计师、开发者及所有与颜色打交道的人打造的免费在线颜色工具集。我们致力于让颜色转换与探索变得快速、简单、人人可用 — 无需账号，无任何费用。",
+    "offerTitle": "提供的功能",
+    "privacyTitle": "隐私保护",
+    "privacyBody": "所有处理均在浏览器内完成。使用图片取色功能时，图片不会上传至服务器，而是通过 Canvas API 在本地设备上处理。",
+    "contactTitle": "联系我们",
+    "contactBody": "如有功能建议或发现问题，欢迎随时与我们联系。"
+  },
+  "privacy": {
+    "title": "隐私政策",
+    "updated": "最后更新：2026年3月",
+    "collectTitle": "收集的信息",
+    "collectBody": "ColorKit 不收集个人信息，无需注册账号，也不会在服务器上存储任何用户数据。",
+    "imageTitle": "图片处理",
+    "imageBody": "图片取色功能使用 HTML5 Canvas API 完全在浏览器内处理。图片数据不会被传输至服务器或存储。",
+    "cookiesTitle": "Cookie 与分析",
+    "cookiesBody": "我们可能使用匿名分析数据来了解用户的使用情况。该数据经过聚合处理，无法用于识别个人。我们可能展示 Google AdSense 广告，相关 Cookie 的使用请参阅 Google 的隐私政策。",
+    "thirdTitle": "第三方服务",
+    "thirdBody": "我们使用 Google AdSense 展示广告。Google 可能根据您对本网站及其他网站的访问情况使用 Cookie 投放广告。",
+    "contactTitle": "联系我们",
+    "contactBody": "如对本政策有任何疑问，欢迎随时与我们联系。"
+  },
+  "terms": {
+    "title": "服务条款",
+    "updated": "最后更新：2026年3月",
+    "acceptTitle": "条款接受",
+    "acceptBody": "使用 ColorKit 即表示您同意本条款。如不同意，请停止使用本服务。",
+    "useTitle": "服务使用",
+    "useBody": "ColorKit 可免费用于个人和商业目的。工具的输出结果（转换值、生成的调色板、CSS 代码等）可不受限制地用于您的项目。",
+    "disclaimerTitle": "免责声明",
+    "disclaimerBody": "ColorKit 按现状提供，不作任何形式的保证。我们不保证工具输出结果的准确性或完整性，建议在应用于生产环境前进行验证。",
+    "liabilityTitle": "责任限制",
+    "liabilityBody": "ColorKit 不对因使用本服务而产生的任何直接、间接、偶发或后果性损害承担责任。",
+    "changesTitle": "条款变更",
+    "changesBody": "我们保留随时修改本条款的权利。继续使用本服务即表示您接受修改后的条款。",
+    "contactTitle": "联系我们",
+    "contactBody": "如对本条款有任何疑问，欢迎随时与我们联系。"
+  }
+}

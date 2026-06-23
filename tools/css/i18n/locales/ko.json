@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "홈",
+    "layoutBuilder": "레이아웃 빌더",
+    "textStyler": "텍스트 스타일러",
+    "boxShadow": "박스 섀도우",
+    "borderRadius": "테두리 둥글기",
+    "flexbox": "플렉스박스 빌더",
+    "button": "버튼 생성기",
+    "boxModel": "박스 모델"
+  },
+  "home": {
+    "title": "CSS 생성기 도구 모음",
+    "subtitle": "슬라이더로 조절하면 CSS 코드가 자동으로 만들어집니다.",
+    "tools": {
+      "textStyler": { "desc": "폰트 크기, 자간, 행간, 색상을 조절하고 CSS 코드를 바로 복사하세요." },
+      "boxShadow": { "desc": "그림자 방향, 흐림도, 색상을 실시간으로 조절하세요." },
+      "borderRadius": { "desc": "모서리 둥글기를 각 꼭짓점별로 개별 조절하세요." },
+      "flexbox": { "desc": "아이템 배치를 클릭으로 설정하고 CSS 코드를 확인하세요." },
+      "button": { "desc": "배경, 테두리, 그림자를 조절해서 버튼 스타일을 완성하세요." },
+      "boxModel": { "desc": "margin, border, padding이 어떻게 쌓이는지 시각적으로 확인하세요." }
+    }
+  },
+  "common": {
+    "preview": "미리보기",
+    "cssCode": "CSS 코드",
+    "copy": "복사",
+    "copied": "복사됨!",
+    "addLayer": "+ 레이어 추가",
+    "color": "색상",
+    "backgroundColor": "배경색",
+    "textColor": "텍스트 색",
+    "borderColor": "테두리 색",
+    "boxColor": "박스 색",
+    "width": "너비",
+    "height": "높이",
+    "itemCount": "아이템 수"
+  },
+  "textStyler": {
+    "title": "텍스트 스타일러",
+    "subtitle": "텍스트 스타일을 조절하고 CSS 코드를 복사하세요.",
+    "fontFamily": "폰트",
+    "fontSize": "글자 크기",
+    "fontWeight": "굵기",
+    "lineHeight": "행간",
+    "letterSpacing": "자간",
+    "textAlign": "정렬",
+    "italic": "이탤릭",
+    "underline": "밑줄"
+  },
+  "boxShadow": {
+    "title": "박스 섀도우 생성기",
+    "subtitle": "그림자 레이어를 추가하고 실시간으로 조절하세요.",
+    "offsetX": "X 오프셋",
+    "offsetY": "Y 오프셋",
+    "blur": "흐림",
+    "spread": "퍼짐",
+    "inset": "안쪽",
+    "bgBoxColors": "배경 / 박스 색상"
+  },
+  "borderRadius": {
+    "title": "테두리 둥글기 생성기",
+    "subtitle": "각 모서리의 둥글기를 개별적으로 조절하세요.",
+    "individual": "개별 조절",
+    "topLeft": "왼쪽 위",
+    "topRight": "오른쪽 위",
+    "bottomRight": "오른쪽 아래",
+    "bottomLeft": "왼쪽 아래"
+  },
+  "flexbox": {
+    "title": "플렉스박스 빌더",
+    "subtitle": "버튼을 클릭해서 flex 속성을 설정하고 결과를 바로 확인하세요.",
+    "itemCount": "아이템 수",
+    "gap": "간격"
+  },
+  "button": {
+    "title": "버튼 생성기",
+    "subtitle": "버튼 스타일을 조절하고 CSS 코드를 복사하세요.",
+    "label": "버튼 텍스트",
+    "paddingX": "가로 여백",
+    "paddingY": "세로 여백",
+    "fontSize": "글자 크기",
+    "fontWeight": "굵기",
+    "borderRadius": "모서리 둥글기",
+    "borderWidth": "테두리 두께",
+    "boxShadow": "박스 섀도우",
+    "offsetY": "Y 오프셋",
+    "blur": "흐림"
+  },
+  "boxModel": {
+    "title": "박스 모델 시각화",
+    "subtitle": "margin, padding, border가 어떻게 쌓이는지 시각적으로 확인하세요.",
+    "margin": "마진",
+    "marginHint": "(주황색)",
+    "padding": "패딩",
+    "paddingHint": "(초록색)",
+    "border": "테두리",
+    "top": "위",
+    "right": "오른쪽",
+    "bottom": "아래",
+    "left": "왼쪽",
+    "content": "콘텐츠"
+  },
+  "notFound": {
+    "title": "페이지를 찾을 수 없어요",
+    "subtitle": "주소를 다시 확인해 주세요.",
+    "goHome": "홈으로 돌아가기"
+  },
+  "layoutBuilder": {
+    "title": "레이아웃 빌더",
+    "subtitle": "요소를 드래그해서 레이아웃을 구성하고 CSS 코드를 확인하세요.",
+    "elements": "Elements",
+    "toBack": "뒤로",
+    "toFront": "앞으로",
+    "duplicate": "복제 ⌘D",
+    "delete": "삭제 Del",
+    "showCode": "CSS 코드",
+    "hideCode": "← 캔버스",
+    "reset": "초기화",
+    "canvasSize": "캔버스",
+    "emptyHint": "왼쪽 패널에서 요소를 드래그하세요",
+    "emptyHintSub": "Drag elements from the left panel",
+    "position": "위치 / 크기",
+    "background": "배경색",
+    "textColor": "텍스트 색",
+    "text": "텍스트",
+    "placeholder": "없음"
+  },
+  "footer": {
+    "copy": "무료 CSS 생성기 도구 모음."
+  }
+}

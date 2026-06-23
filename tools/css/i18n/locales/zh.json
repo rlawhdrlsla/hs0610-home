@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "首页",
+    "layoutBuilder": "布局构建器",
+    "textStyler": "文字样式",
+    "boxShadow": "盒子阴影",
+    "borderRadius": "圆角",
+    "flexbox": "弹性盒子",
+    "button": "按钮生成",
+    "boxModel": "盒模型"
+  },
+  "home": {
+    "title": "CSS 生成工具集",
+    "subtitle": "调整滑块，CSS 代码自动生成。",
+    "tools": {
+      "textStyler": { "desc": "调整字体大小、字间距、行高和颜色，即时复制 CSS。" },
+      "boxShadow": { "desc": "实时调整阴影方向、模糊度和颜色。" },
+      "borderRadius": { "desc": "单独调整每个角的圆角大小。" },
+      "flexbox": { "desc": "点击按钮设置 flex 属性并查看结果。" },
+      "button": { "desc": "通过背景、边框和阴影控件完成按钮样式。" },
+      "boxModel": { "desc": "可视化查看 margin、border、padding 的叠加方式。" }
+    }
+  },
+  "common": {
+    "preview": "预览",
+    "cssCode": "CSS 代码",
+    "copy": "复制",
+    "copied": "已复制!",
+    "addLayer": "+ 添加图层",
+    "color": "颜色",
+    "backgroundColor": "背景色",
+    "textColor": "文字颜色",
+    "borderColor": "边框颜色",
+    "boxColor": "盒子颜色",
+    "width": "宽度",
+    "height": "高度",
+    "itemCount": "项目数"
+  },
+  "textStyler": {
+    "title": "文字样式器",
+    "subtitle": "调整文字样式并复制 CSS 代码。",
+    "fontFamily": "字体",
+    "fontSize": "字体大小",
+    "fontWeight": "字重",
+    "lineHeight": "行高",
+    "letterSpacing": "字间距",
+    "textAlign": "对齐",
+    "italic": "斜体",
+    "underline": "下划线"
+  },
+  "boxShadow": {
+    "title": "盒子阴影生成器",
+    "subtitle": "添加阴影图层并实时调整。",
+    "offsetX": "X 偏移",
+    "offsetY": "Y 偏移",
+    "blur": "模糊",
+    "spread": "扩散",
+    "inset": "内阴影",
+    "bgBoxColors": "背景 / 盒子颜色"
+  },
+  "borderRadius": {
+    "title": "圆角生成器",
+    "subtitle": "单独调整每个角的圆角大小。",
+    "individual": "单独调整",
+    "topLeft": "左上",
+    "topRight": "右上",
+    "bottomRight": "右下",
+    "bottomLeft": "左下"
+  },
+  "flexbox": {
+    "title": "弹性盒子构建器",
+    "subtitle": "点击按钮设置 flex 属性，即时查看结果。",
+    "itemCount": "项目数",
+    "gap": "间距"
+  },
+  "button": {
+    "title": "按钮生成器",
+    "subtitle": "调整按钮样式并复制 CSS 代码。",
+    "label": "按钮文字",
+    "paddingX": "横向内边距",
+    "paddingY": "纵向内边距",
+    "fontSize": "字体大小",
+    "fontWeight": "字重",
+    "borderRadius": "圆角",
+    "borderWidth": "边框宽度",
+    "boxShadow": "盒子阴影",
+    "offsetY": "Y 偏移",
+    "blur": "模糊"
+  },
+  "boxModel": {
+    "title": "盒模型可视化",
+    "subtitle": "可视化查看 margin、padding、border 的叠加。",
+    "margin": "外边距",
+    "marginHint": "(橙色)",
+    "padding": "内边距",
+    "paddingHint": "(绿色)",
+    "border": "边框",
+    "top": "上",
+    "right": "右",
+    "bottom": "下",
+    "left": "左",
+    "content": "内容"
+  },
+  "notFound": {
+    "title": "页面未找到",
+    "subtitle": "请检查地址。",
+    "goHome": "返回首页"
+  },
+  "layoutBuilder": {
+    "title": "布局构建器",
+    "subtitle": "拖拽元素构建布局，查看 CSS 代码。",
+    "elements": "Elements",
+    "toBack": "后移",
+    "toFront": "前移",
+    "duplicate": "复制 ⌘D",
+    "delete": "删除 Del",
+    "showCode": "CSS 代码",
+    "hideCode": "← 画布",
+    "reset": "重置",
+    "canvasSize": "画布",
+    "emptyHint": "从左侧面板拖拽元素",
+    "emptyHintSub": "Drag elements from the left panel",
+    "position": "位置 / 尺寸",
+    "background": "背景色",
+    "textColor": "文字颜色",
+    "text": "文字",
+    "placeholder": "无"
+  },
+  "footer": {
+    "copy": "免费 CSS 生成工具集。"
+  }
+}

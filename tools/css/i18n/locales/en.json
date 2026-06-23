@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "Home",
+    "layoutBuilder": "Layout Builder",
+    "textStyler": "Text Styler",
+    "boxShadow": "Box Shadow",
+    "borderRadius": "Border Radius",
+    "flexbox": "Flexbox Builder",
+    "button": "Button Generator",
+    "boxModel": "Box Model"
+  },
+  "home": {
+    "title": "CSS Generator Tools",
+    "subtitle": "Adjust sliders and get copy-ready CSS code instantly.",
+    "tools": {
+      "textStyler": { "desc": "Adjust font size, letter spacing, line height, and color — get the CSS instantly." },
+      "boxShadow": { "desc": "Control shadow direction, blur, spread, and color in real time." },
+      "borderRadius": { "desc": "Set each corner's roundness individually." },
+      "flexbox": { "desc": "Set item alignment with clicks and see the CSS result." },
+      "button": { "desc": "Style your button with background, border, and shadow controls." },
+      "boxModel": { "desc": "Visualize how margin, border, and padding stack up." }
+    }
+  },
+  "common": {
+    "preview": "Preview",
+    "cssCode": "CSS Code",
+    "copy": "Copy",
+    "copied": "Copied!",
+    "addLayer": "+ Add Layer",
+    "color": "Color",
+    "backgroundColor": "Background",
+    "textColor": "Text Color",
+    "borderColor": "Border Color",
+    "boxColor": "Box Color",
+    "width": "Width",
+    "height": "Height",
+    "itemCount": "Item Count"
+  },
+  "textStyler": {
+    "title": "Text Styler",
+    "subtitle": "Adjust text styles and copy the CSS code.",
+    "fontFamily": "Font Family",
+    "fontSize": "Font Size",
+    "fontWeight": "Font Weight",
+    "lineHeight": "Line Height",
+    "letterSpacing": "Letter Spacing",
+    "textAlign": "Text Align",
+    "italic": "Italic",
+    "underline": "Underline"
+  },
+  "boxShadow": {
+    "title": "Box Shadow Generator",
+    "subtitle": "Add shadow layers and adjust them in real time.",
+    "offsetX": "Offset X",
+    "offsetY": "Offset Y",
+    "blur": "Blur",
+    "spread": "Spread",
+    "inset": "inset",
+    "bgBoxColors": "Background / Box Color"
+  },
+  "borderRadius": {
+    "title": "Border Radius Generator",
+    "subtitle": "Adjust each corner's roundness individually.",
+    "individual": "Individual Control",
+    "topLeft": "Top Left",
+    "topRight": "Top Right",
+    "bottomRight": "Bottom Right",
+    "bottomLeft": "Bottom Left"
+  },
+  "flexbox": {
+    "title": "Flexbox Builder",
+    "subtitle": "Click buttons to set flex properties and see the result immediately.",
+    "itemCount": "Item Count",
+    "gap": "gap"
+  },
+  "button": {
+    "title": "Button Generator",
+    "subtitle": "Adjust button styles and copy the CSS code.",
+    "label": "Button Text",
+    "paddingX": "Padding X",
+    "paddingY": "Padding Y",
+    "fontSize": "Font Size",
+    "fontWeight": "Font Weight",
+    "borderRadius": "Border Radius",
+    "borderWidth": "Border Width",
+    "boxShadow": "Box Shadow",
+    "offsetY": "Y Offset",
+    "blur": "Blur"
+  },
+  "boxModel": {
+    "title": "Box Model Visualizer",
+    "subtitle": "Visualize how margin, padding, and border stack up.",
+    "margin": "Margin",
+    "marginHint": "(orange)",
+    "padding": "Padding",
+    "paddingHint": "(green)",
+    "border": "Border",
+    "top": "Top",
+    "right": "Right",
+    "bottom": "Bottom",
+    "left": "Left",
+    "content": "content"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "Please check the URL.",
+    "goHome": "Go Home"
+  },
+  "layoutBuilder": {
+    "title": "Layout Builder",
+    "subtitle": "Drag elements to build your layout and get the CSS code.",
+    "elements": "Elements",
+    "toBack": "Back",
+    "toFront": "Front",
+    "duplicate": "Duplicate ⌘D",
+    "delete": "Delete Del",
+    "showCode": "CSS Code",
+    "hideCode": "← Canvas",
+    "reset": "Reset",
+    "canvasSize": "Canvas",
+    "emptyHint": "Drag elements from the left panel",
+    "emptyHintSub": "요소를 드래그해서 추가하세요",
+    "position": "Position / Size",
+    "background": "Background",
+    "textColor": "Text Color",
+    "text": "Text",
+    "placeholder": "None"
+  },
+  "footer": {
+    "copy": "Free CSS generator tools."
+  }
+}

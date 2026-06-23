@@ -1,0 +1,185 @@
+{
+  "nav": {
+    "allTools": "All Tools",
+    "hexRgb": "HEX ↔ RGB",
+    "rgbHsl": "RGB ↔ HSL",
+    "palette": "Palette Generator",
+    "imageColors": "Image Colors",
+    "contrast": "Contrast Checker",
+    "gradient": "Gradient Maker",
+    "mixer": "Color Mixer",
+    "namedColors": "CSS Named Colors"
+  },
+  "home": {
+    "badge": "8 Free Color Tools",
+    "title1": "Color Tools for",
+    "title2": "Designers & Developers",
+    "subtitle": "Convert, generate, and explore colors. HEX, RGB, HSL, palettes, gradients — all free, no signup required.",
+    "tools": {
+      "hexRgb": { "label": "HEX ↔ RGB Converter", "desc": "Convert between HEX color codes and RGB values instantly." },
+      "rgbHsl": { "label": "RGB ↔ HSL Converter", "desc": "Convert between RGB and HSL color models." },
+      "palette": { "label": "Palette Generator", "desc": "Generate complementary, analogous, triadic, and tetradic palettes." },
+      "imageColors": { "label": "Image Color Extractor", "desc": "Upload an image and extract the dominant colors." },
+      "contrast": { "label": "Contrast Checker", "desc": "Check WCAG contrast ratio between two colors for accessibility." },
+      "gradient": { "label": "Gradient Maker", "desc": "Create CSS gradients visually and copy the code." },
+      "mixer": { "label": "Color Mixer", "desc": "Blend two colors together and see the result at different ratios." },
+      "namedColors": { "label": "CSS Named Colors", "desc": "Browse all 140 CSS named colors with HEX and RGB values." }
+    },
+    "features": {
+      "free": { "title": "100% Free", "desc": "All tools are completely free to use, forever." },
+      "noLogin": { "title": "No Login Required", "desc": "Use any tool instantly without creating an account." },
+      "privacy": { "title": "Privacy First", "desc": "Image processing happens in your browser. Nothing is uploaded." }
+    },
+    "openTool": "Open tool"
+  },
+  "footer": {
+    "tagline": "Free online color tools for designers and developers.",
+    "tools": "Tools",
+    "moreTools": "More Tools",
+    "company": "Company",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "copy": "Copy",
+    "copied": "Copied!",
+    "copyAll": "Copy All",
+    "allCopied": "All colors copied!",
+    "output": "Output",
+    "allValues": "All Values",
+    "about": "About"
+  },
+  "hexRgb": {
+    "title": "HEX ↔ RGB Converter",
+    "desc": "Convert between HEX color codes and RGB values in real time.",
+    "hex": "HEX",
+    "rgb": "RGB",
+    "copyHex": "Copy HEX",
+    "copyRgb": "Copy RGB",
+    "guide": {
+      "title": "About HEX & RGB",
+      "body": "HEX color codes (e.g. #7c3aed) are widely used in CSS and design tools. Each pair of hex digits represents Red, Green, or Blue from 0 (00) to 255 (FF). RGB notation (e.g. rgb(124, 58, 237)) uses decimal integers from 0–255, which can be easier to manipulate programmatically."
+    }
+  },
+  "rgbHsl": {
+    "title": "RGB ↔ HSL Converter",
+    "desc": "Convert between RGB and HSL color models interactively.",
+    "guide": {
+      "title": "About HSL",
+      "body": "H (Hue) is the color angle on the wheel (0–360°). S (Saturation) controls intensity (0% = grey, 100% = vivid). L (Lightness) controls brightness (0% = black, 100% = white). HSL is more intuitive than RGB when adjusting how light or vivid a color appears."
+    }
+  },
+  "palette": {
+    "title": "Color Palette Generator",
+    "desc": "Enter a base color to generate harmonious color palettes.",
+    "complementary": "Complementary",
+    "analogous": "Analogous",
+    "triadic": "Triadic",
+    "splitComplementary": "Split-Complementary",
+    "tetradic": "Tetradic",
+    "shades": "Shades",
+    "guide": {
+      "title": "Color Harmony Guide",
+      "complementary": "Colors opposite on the wheel. High contrast.",
+      "analogous": "Colors adjacent on the wheel. Natural and harmonious.",
+      "triadic": "Three evenly spaced colors. Vibrant and balanced.",
+      "split": "Base + two adjacent to its complement. Less tension than complementary.",
+      "tetradic": "Four colors in two complementary pairs. Rich and complex."
+    }
+  },
+  "imageColors": {
+    "title": "Image Color Extractor",
+    "desc": "Upload an image to extract its dominant colors. Processed entirely in your browser — nothing is uploaded.",
+    "dropLabel": "Drop an image here or click to upload",
+    "dropSub": "JPG, PNG, WebP, GIF supported",
+    "extracted": "Extracted Colors",
+    "allHex": "All HEX Codes",
+    "guide": {
+      "title": "How it works",
+      "body": "The image is drawn onto an invisible canvas, pixel colors are sampled and quantized, then grouped by frequency to find the most dominant colors. Everything happens in your browser using the Canvas API — your image never leaves your device."
+    }
+  },
+  "contrast": {
+    "title": "Contrast Checker",
+    "desc": "Check WCAG 2.1 color contrast ratio for accessibility compliance.",
+    "foreground": "Foreground (Text)",
+    "background": "Background",
+    "ratio": "Contrast Ratio",
+    "pass": "Pass",
+    "fail": "Fail",
+    "guide": {
+      "title": "WCAG Contrast Standards",
+      "aa": "AA is the minimum standard. Normal text needs at least 4.5:1, large text needs 3:1.",
+      "aaa": "AAA is the enhanced standard, requiring 7:1 for normal text and 4.5:1 for large text."
+    }
+  },
+  "gradient": {
+    "title": "Gradient Maker",
+    "desc": "Create CSS gradients visually and copy the code.",
+    "linear": "linear",
+    "radial": "radial",
+    "direction": "Direction",
+    "colorStops": "Color Stops",
+    "addStop": "Add Stop",
+    "cssCode": "CSS Code",
+    "copyCss": "Copy CSS",
+    "gradientOnly": "gradient value only",
+    "tailwind": "Tailwind (arbitrary)"
+  },
+  "mixer": {
+    "title": "Color Mixer",
+    "desc": "Blend two colors together and see the result at different ratios.",
+    "colorA": "Color A",
+    "colorB": "Color B",
+    "mixRatio": "Mix Ratio",
+    "allSteps": "All Mix Steps",
+    "clickToCopy": "Click any swatch to copy its HEX code"
+  },
+  "namedColors": {
+    "title": "CSS Named Colors",
+    "desc": "All 140 CSS named colors with their HEX and RGB values. Click to copy.",
+    "search": "Search by name or hex...",
+    "showing": "{{count}} colors shown"
+  },
+  "about": {
+    "title": "About ColorKit",
+    "intro": "ColorKit is a free collection of online color tools designed for designers, developers, and anyone who works with color. Our goal is to make color conversion and exploration fast, simple, and accessible — no account required, no paywalls.",
+    "offerTitle": "What we offer",
+    "privacyTitle": "Privacy",
+    "privacyBody": "All processing happens in your browser. When you use the Image Color Extractor, your images are never uploaded to our servers — the Canvas API processes everything locally on your device.",
+    "contactTitle": "Contact",
+    "contactBody": "Have a suggestion or found an issue? We would love to hear from you."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: March 2026",
+    "collectTitle": "Information We Collect",
+    "collectBody": "ColorKit does not collect personal information. We do not require account registration and do not store any user data on our servers.",
+    "imageTitle": "Image Processing",
+    "imageBody": "The Image Color Extractor tool processes images entirely within your browser using the HTML5 Canvas API. No image data is ever transmitted to or stored on our servers.",
+    "cookiesTitle": "Cookies & Analytics",
+    "cookiesBody": "We may use anonymous analytics to understand how visitors use our site. This data is aggregated and cannot be used to identify individual users. We may display third-party advertisements (Google AdSense) which may use cookies as described in Google's Privacy Policy.",
+    "thirdTitle": "Third-Party Services",
+    "thirdBody": "We use Google AdSense to display advertisements. Google may use cookies to serve ads based on your visit to this and other websites.",
+    "contactTitle": "Contact",
+    "contactBody": "If you have any questions about this policy, please feel free to contact us."
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "updated": "Last updated: March 2026",
+    "acceptTitle": "Acceptance of Terms",
+    "acceptBody": "By using ColorKit, you agree to these terms. If you do not agree, please do not use the service.",
+    "useTitle": "Use of Service",
+    "useBody": "ColorKit provides free online color tools for personal and commercial use. You may use the outputs (converted values, generated palettes, CSS code) in your projects without restriction.",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimerBody": "ColorKit is provided as-is without warranty of any kind. We do not guarantee the accuracy or completeness of any tool output. Please verify results before using them in production environments.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityBody": "ColorKit shall not be liable for any direct, indirect, incidental, or consequential damages arising from your use of the service.",
+    "changesTitle": "Changes",
+    "changesBody": "We reserve the right to modify these terms at any time. Continued use of the service constitutes acceptance of the updated terms.",
+    "contactTitle": "Contact",
+    "contactBody": "For questions regarding these terms, please feel free to contact us."
+  }
+}

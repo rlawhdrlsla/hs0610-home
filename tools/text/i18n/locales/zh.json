@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "allTools": "全部工具",
+    "wordCount": "字数统计",
+    "caseConvert": "大小写转换",
+    "lorem": "Lorem Ipsum",
+    "clean": "文本清理",
+    "lines": "行工具",
+    "slug": "Slug生成"
+  },
+  "home": {
+    "badge": "6个免费文本工具",
+    "title1": "文本处理",
+    "title2": "工具集",
+    "subtitle": "字数统计、大小写转换、Lorem Ipsum生成等 — 全部免费，无需登录。",
+    "openTool": "打开",
+    "tools": {
+      "wordCount":   { "label": "字数统计",   "desc": "统计单词、字符、句子、段落数量并估算阅读时间。" },
+      "caseConvert": { "label": "大小写转换", "desc": "将文本转换为大写、小写、标题格式、camelCase等。" },
+      "lorem":       { "label": "Lorem Ipsum", "desc": "为设计稿和原型生成占位文本。" },
+      "clean":       { "label": "文本清理",   "desc": "删除多余空格、空行、特殊字符等。" },
+      "lines":       { "label": "行工具",     "desc": "支持行排序、去重、反转、打乱和编号。" },
+      "slug":        { "label": "Slug生成",   "desc": "将文本转换为URL友好的slug。" }
+    },
+    "features": {
+      "free":    { "title": "完全免费",   "desc": "所有工具免费，无隐藏费用。" },
+      "noLogin": { "title": "无需登录",   "desc": "无需账号，直接使用。" },
+      "privacy": { "title": "隐私优先",   "desc": "所有处理在浏览器中进行，不发送到服务器。" }
+    }
+  },
+  "footer": {
+    "tagline": "免费在线文本工具。无需登录，不追踪用户。",
+    "tools": "工具",
+    "company": "公司",
+    "about": "关于",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "copy": "复制",
+    "clear": "清除",
+    "input": "输入",
+    "output": "输出",
+    "result": "结果",
+    "generate": "生成",
+    "convert": "转换",
+    "paste": "在此输入或粘贴文本..."
+  },
+  "wordCount": {
+    "title": "字数统计",
+    "desc": "统计单词、字符、句子、段落数量并估算阅读时间。",
+    "placeholder": "在此输入或粘贴文本...",
+    "words": "单词",
+    "chars": "字符",
+    "charsNoSpace": "字符（不含空格）",
+    "sentences": "句子",
+    "paragraphs": "段落",
+    "readTime": "阅读时间",
+    "minutes": "分钟"
+  },
+  "caseConvert": {
+    "title": "大小写转换",
+    "desc": "即时将文本转换为各种大小写格式。",
+    "placeholder": "在此输入或粘贴文本...",
+    "upper": "大写",
+    "lower": "小写",
+    "title": "标题格式",
+    "sentence": "句子格式",
+    "camel": "camelCase",
+    "pascal": "PascalCase",
+    "snake": "snake_case",
+    "kebab": "kebab-case",
+    "dot": "dot.case",
+    "constant": "CONSTANT_CASE"
+  },
+  "lorem": {
+    "title": "Lorem Ipsum生成器",
+    "desc": "为设计和原型生成占位文本。",
+    "type": "类型",
+    "paragraphs": "段落",
+    "sentences": "句子",
+    "words": "单词",
+    "count": "数量",
+    "startWithLorem": "以\"Lorem ipsum\"开头",
+    "generate": "生成"
+  },
+  "clean": {
+    "title": "文本清理",
+    "desc": "删除不需要的空格和字符来清理文本。",
+    "placeholder": "粘贴文本到这里...",
+    "trimLines": "删除行首尾空格",
+    "removeExtraSpaces": "删除多余空格",
+    "removeEmptyLines": "删除空行",
+    "removeNumbers": "删除数字",
+    "removeSpecial": "删除特殊字符",
+    "removePunctuation": "删除标点符号",
+    "toSingleLine": "合并为单行",
+    "apply": "应用"
+  },
+  "lines": {
+    "title": "行工具",
+    "desc": "支持行排序、去重、反转、打乱和编号。",
+    "placeholder": "每行一条，粘贴文本...",
+    "sortAZ": "A → Z 排序",
+    "sortZA": "Z → A 排序",
+    "sortLen": "按长度排序",
+    "dedupe": "去除重复",
+    "reverse": "反转顺序",
+    "shuffle": "随机打乱",
+    "number": "添加行号",
+    "trim": "删除每行空格",
+    "lineCount": "行"
+  },
+  "slug": {
+    "title": "Slug生成器",
+    "desc": "将文本转换为URL友好的slug。",
+    "placeholder": "在此输入文本...",
+    "separator": "分隔符",
+    "hyphen": "连字符 (-)",
+    "underscore": "下划线 (_)",
+    "lowercase": "转小写",
+    "result": "Slug"
+  },
+  "about": {
+    "title": "关于TextKit",
+    "intro": "TextKit是免费的浏览器端文本处理工具集。",
+    "fast": "快速即时",
+    "fastDesc": "所有工具在浏览器中运行。",
+    "private": "隐私保护",
+    "privateDesc": "文本不会离开您的设备。",
+    "available": "随时可用",
+    "availableDesc": "无需登录，无限制。",
+    "contact": "如有问题请联系:"
+  },
+  "privacy": { "title": "隐私政策", "updated": "最后更新: 2026年4月", "noDataTitle": "不收集数据", "noDataBody": "TextKit不收集、存储或传输任何个人数据或输入内容。", "analyticsTitle": "分析", "analyticsBody": "仅收集匿名访问次数。", "adTitle": "广告", "adBody": "我们使用Google AdSense显示广告。", "contactTitle": "联系", "contactBody": "如有问题请联系:" },
+  "terms": { "title": "服务条款", "updated": "最后更新: 2026年4月", "useTitle": "服务使用", "useBody": "TextKit提供免费在线文本工具供个人和专业使用。", "warrantyTitle": "无保证", "warrantyBody": "所有工具按原样提供，不提供任何保证。", "liabilityTitle": "责任限制", "liabilityBody": "TextKit运营者不对使用工具造成的损害负责。", "changesTitle": "变更", "changesBody": "我们可能随时更新这些条款。", "contactTitle": "联系", "contactBody": "如有问题请联系:" }
+}

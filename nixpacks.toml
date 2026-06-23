@@ -1,0 +1,9 @@
+[phases.setup]
+nixPkgs = ["nodejs_20", "ffmpeg", "python3"]
+aptPkgs = ["build-essential"]
+
+[phases.build]
+cmds = ["npm install", "npm run build"]
+
+[start]
+cmd = "npm run start"

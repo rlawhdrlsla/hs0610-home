@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-600: #2e2e2e;
+  --color-dark-700: #1f1f1f;
+  --color-dark-800: #161616;
+  --color-dark-900: #0f0f0f;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}

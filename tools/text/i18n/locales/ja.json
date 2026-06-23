@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "allTools": "全ツール",
+    "wordCount": "文字数カウント",
+    "caseConvert": "大文字小文字変換",
+    "lorem": "Lorem Ipsum",
+    "clean": "テキスト整理",
+    "lines": "行ツール",
+    "slug": "スラッグ生成"
+  },
+  "home": {
+    "badge": "無料テキストツール 6種",
+    "title1": "テキストのための",
+    "title2": "ツール集",
+    "subtitle": "文字数カウント、大文字小文字変換、Lorem Ipsum生成など — すべて無料、ログイン不要。",
+    "openTool": "開く",
+    "tools": {
+      "wordCount":   { "label": "文字数カウント",   "desc": "単語、文字、文、段落数を数え、読了時間を計算します。" },
+      "caseConvert": { "label": "大文字小文字変換", "desc": "テキストをUPPER、lower、Title、camelCase、snake_caseなどに変換します。" },
+      "lorem":       { "label": "Lorem Ipsum",    "desc": "デザインのモックアップ用ダミーテキストを生成します。" },
+      "clean":       { "label": "テキスト整理",    "desc": "余分なスペース、空行、特殊文字などを削除します。" },
+      "lines":       { "label": "行ツール",        "desc": "行の並び替え、重複削除、逆順、シャッフルなどを行います。" },
+      "slug":        { "label": "スラッグ生成",    "desc": "テキストをURL用のスラッグに変換します。" }
+    },
+    "features": {
+      "free":    { "title": "完全無料",       "desc": "すべてのツールは無料です。" },
+      "noLogin": { "title": "ログイン不要",   "desc": "アカウント不要。すぐに使えます。" },
+      "privacy": { "title": "プライバシー優先", "desc": "すべてブラウザで処理されます。サーバーには送信されません。" }
+    }
+  },
+  "footer": {
+    "tagline": "無料オンラインテキストツール。ログインなし、追跡なし。",
+    "tools": "ツール",
+    "company": "会社",
+    "about": "概要",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "copy": "コピー",
+    "clear": "クリア",
+    "input": "入力",
+    "output": "出力",
+    "result": "結果",
+    "generate": "生成",
+    "convert": "変換",
+    "paste": "テキストを入力または貼り付けてください..."
+  },
+  "wordCount": {
+    "title": "文字数カウント",
+    "desc": "単語、文字、文、段落数を数え、読了時間を計算します。",
+    "placeholder": "テキストを入力または貼り付けてください...",
+    "words": "単語",
+    "chars": "文字",
+    "charsNoSpace": "文字（スペース除く）",
+    "sentences": "文",
+    "paragraphs": "段落",
+    "readTime": "読了時間",
+    "minutes": "分"
+  },
+  "caseConvert": {
+    "title": "大文字小文字変換",
+    "desc": "テキストを様々な形式に即座に変換します。",
+    "placeholder": "テキストを入力または貼り付けてください...",
+    "upper": "大文字",
+    "lower": "小文字",
+    "title": "タイトル形式",
+    "sentence": "文形式",
+    "camel": "camelCase",
+    "pascal": "PascalCase",
+    "snake": "snake_case",
+    "kebab": "kebab-case",
+    "dot": "dot.case",
+    "constant": "CONSTANT_CASE"
+  },
+  "lorem": {
+    "title": "Lorem Ipsum生成器",
+    "desc": "デザインとプロトタイプ用のダミーテキストを生成します。",
+    "type": "タイプ",
+    "paragraphs": "段落",
+    "sentences": "文",
+    "words": "単語",
+    "count": "数",
+    "startWithLorem": "\"Lorem ipsum\"で開始",
+    "generate": "生成"
+  },
+  "clean": {
+    "title": "テキスト整理",
+    "desc": "不要な空白や文字を削除してテキストを整理します。",
+    "placeholder": "テキストを貼り付けてください...",
+    "trimLines": "行の前後空白を削除",
+    "removeExtraSpaces": "連続スペースを削除",
+    "removeEmptyLines": "空行を削除",
+    "removeNumbers": "数字を削除",
+    "removeSpecial": "特殊文字を削除",
+    "removePunctuation": "句読点を削除",
+    "toSingleLine": "1行に結合",
+    "apply": "適用"
+  },
+  "lines": {
+    "title": "行ツール",
+    "desc": "行の並び替え、重複削除、逆順、シャッフルなどを行います。",
+    "placeholder": "1行ずつテキストを貼り付けてください...",
+    "sortAZ": "A → Z 並び替え",
+    "sortZA": "Z → A 並び替え",
+    "sortLen": "長さ順並び替え",
+    "dedupe": "重複削除",
+    "reverse": "逆順",
+    "shuffle": "シャッフル",
+    "number": "行番号付け",
+    "trim": "各行の空白削除",
+    "lineCount": "行"
+  },
+  "slug": {
+    "title": "スラッグ生成器",
+    "desc": "テキストをURL用のスラッグに変換します。",
+    "placeholder": "テキストを入力してください...",
+    "separator": "区切り文字",
+    "hyphen": "ハイフン (-)",
+    "underscore": "アンダースコア (_)",
+    "lowercase": "小文字変換",
+    "result": "スラッグ"
+  },
+  "about": {
+    "title": "TextKitについて",
+    "intro": "TextKitは無料のブラウザベーステキスト処理ツール集です。",
+    "fast": "高速・即時",
+    "fastDesc": "すべてのツールはブラウザで実行されます。",
+    "private": "プライバシー保護",
+    "privateDesc": "テキストはデバイスを離れません。",
+    "available": "常に利用可能",
+    "availableDesc": "ログイン不要、制限なし。",
+    "contact": "ご質問はこちらまで:"
+  },
+  "privacy": { "title": "プライバシーポリシー", "updated": "最終更新: 2026年4月", "noDataTitle": "データ未収集", "noDataBody": "TextKitは個人データや入力内容を収集・保存・送信しません。", "analyticsTitle": "アナリティクス", "analyticsBody": "匿名の訪問数のみ集計します。", "adTitle": "広告", "adBody": "Google AdSenseを使用しています。", "contactTitle": "お問い合わせ", "contactBody": "ご質問は:" },
+  "terms": { "title": "利用規約", "updated": "最終更新: 2026年4月", "useTitle": "サービスの利用", "useBody": "TextKitは個人・業務用の無料オンラインテキストツールを提供します。", "warrantyTitle": "保証なし", "warrantyBody": "すべてのツールは現状のまま提供されます。", "liabilityTitle": "責任の制限", "liabilityBody": "TextKitの運営者はツール使用による損害に責任を負いません。", "changesTitle": "変更", "changesBody": "規約はいつでも更新される場合があります。", "contactTitle": "お問い合わせ", "contactBody": "ご質問は:" }
+}

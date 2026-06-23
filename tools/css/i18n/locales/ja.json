@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "layoutBuilder": "レイアウトビルダー",
+    "textStyler": "テキストスタイラー",
+    "boxShadow": "ボックスシャドウ",
+    "borderRadius": "角丸",
+    "flexbox": "フレックスボックス",
+    "button": "ボタン生成",
+    "boxModel": "ボックスモデル"
+  },
+  "home": {
+    "title": "CSS生成ツール集",
+    "subtitle": "スライダーで調整するとCSSコードが自動生成されます。",
+    "tools": {
+      "textStyler": { "desc": "フォントサイズ、字間、行間、色を調整してCSSをコピー。" },
+      "boxShadow": { "desc": "影の方向・ぼかし・色をリアルタイムで調整。" },
+      "borderRadius": { "desc": "各角の丸みを個別に調整。" },
+      "flexbox": { "desc": "クリックでflex属性を設定してCSSを確認。" },
+      "button": { "desc": "背景・枠線・影でボタンスタイルを完成。" },
+      "boxModel": { "desc": "margin・border・paddingの積み重なりを視覚化。" }
+    }
+  },
+  "common": {
+    "preview": "プレビュー",
+    "cssCode": "CSSコード",
+    "copy": "コピー",
+    "copied": "コピー済み!",
+    "addLayer": "+ レイヤー追加",
+    "color": "カラー",
+    "backgroundColor": "背景色",
+    "textColor": "テキスト色",
+    "borderColor": "枠線の色",
+    "boxColor": "ボックス色",
+    "width": "幅",
+    "height": "高さ",
+    "itemCount": "アイテム数"
+  },
+  "textStyler": {
+    "title": "テキストスタイラー",
+    "subtitle": "テキストスタイルを調整してCSSをコピーしてください。",
+    "fontFamily": "フォント",
+    "fontSize": "フォントサイズ",
+    "fontWeight": "太さ",
+    "lineHeight": "行間",
+    "letterSpacing": "字間",
+    "textAlign": "揃え",
+    "italic": "斜体",
+    "underline": "下線"
+  },
+  "boxShadow": {
+    "title": "ボックスシャドウ生成",
+    "subtitle": "影レイヤーを追加してリアルタイムで調整してください。",
+    "offsetX": "X オフセット",
+    "offsetY": "Y オフセット",
+    "blur": "ぼかし",
+    "spread": "広がり",
+    "inset": "内側",
+    "bgBoxColors": "背景 / ボックス色"
+  },
+  "borderRadius": {
+    "title": "角丸生成",
+    "subtitle": "各角の丸みを個別に調整してください。",
+    "individual": "個別調整",
+    "topLeft": "左上",
+    "topRight": "右上",
+    "bottomRight": "右下",
+    "bottomLeft": "左下"
+  },
+  "flexbox": {
+    "title": "フレックスボックスビルダー",
+    "subtitle": "ボタンをクリックしてflex属性を設定してください。",
+    "itemCount": "アイテム数",
+    "gap": "間隔"
+  },
+  "button": {
+    "title": "ボタン生成",
+    "subtitle": "ボタンスタイルを調整してCSSをコピーしてください。",
+    "label": "ボタンテキスト",
+    "paddingX": "横余白",
+    "paddingY": "縦余白",
+    "fontSize": "フォントサイズ",
+    "fontWeight": "太さ",
+    "borderRadius": "角丸",
+    "borderWidth": "枠線幅",
+    "boxShadow": "ボックスシャドウ",
+    "offsetY": "Y オフセット",
+    "blur": "ぼかし"
+  },
+  "boxModel": {
+    "title": "ボックスモデル視覚化",
+    "subtitle": "margin・padding・borderの重なりを確認してください。",
+    "margin": "マージン",
+    "marginHint": "(オレンジ)",
+    "padding": "パディング",
+    "paddingHint": "(緑)",
+    "border": "ボーダー",
+    "top": "上",
+    "right": "右",
+    "bottom": "下",
+    "left": "左",
+    "content": "コンテンツ"
+  },
+  "notFound": {
+    "title": "ページが見つかりません",
+    "subtitle": "URLをご確認ください。",
+    "goHome": "ホームへ戻る"
+  },
+  "layoutBuilder": {
+    "title": "レイアウトビルダー",
+    "subtitle": "要素をドラッグしてレイアウトを構成し、CSSコードを確認してください。",
+    "elements": "Elements",
+    "toBack": "後ろへ",
+    "toFront": "前へ",
+    "duplicate": "複製 ⌘D",
+    "delete": "削除 Del",
+    "showCode": "CSSコード",
+    "hideCode": "← キャンバス",
+    "reset": "リセット",
+    "canvasSize": "キャンバス",
+    "emptyHint": "左パネルから要素をドラッグしてください",
+    "emptyHintSub": "Drag elements from the left panel",
+    "position": "位置 / サイズ",
+    "background": "背景色",
+    "textColor": "テキスト色",
+    "text": "テキスト",
+    "placeholder": "なし"
+  },
+  "footer": {
+    "copy": "無料CSSジェネレーターツール集。"
+  }
+}

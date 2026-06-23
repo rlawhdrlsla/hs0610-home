@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "allTools": "All Tools",
+    "wordCount": "Word Counter",
+    "caseConvert": "Case Converter",
+    "lorem": "Lorem Ipsum",
+    "clean": "Text Cleaner",
+    "lines": "Line Tools",
+    "slug": "Slug Generator"
+  },
+  "home": {
+    "badge": "6 Free Text Tools",
+    "title1": "Tools for",
+    "title2": "text",
+    "subtitle": "Word counter, case converter, lorem ipsum, text cleaner and more — all free, no login required.",
+    "openTool": "Open tool",
+    "tools": {
+      "wordCount":   { "label": "Word Counter",    "desc": "Count words, characters, sentences, paragraphs and estimate reading time." },
+      "caseConvert": { "label": "Case Converter",  "desc": "Convert text to UPPER, lower, Title, camelCase, snake_case, kebab-case and more." },
+      "lorem":       { "label": "Lorem Ipsum",     "desc": "Generate dummy lorem ipsum text for mockups and prototypes." },
+      "clean":       { "label": "Text Cleaner",    "desc": "Remove extra spaces, empty lines, special characters, and trim whitespace." },
+      "lines":       { "label": "Line Tools",      "desc": "Sort, deduplicate, reverse, shuffle, and number lines of text." },
+      "slug":        { "label": "Slug Generator",  "desc": "Convert any text into a clean URL-friendly slug." }
+    },
+    "features": {
+      "free":    { "title": "Always Free",       "desc": "Every tool is free with no hidden costs." },
+      "noLogin": { "title": "No Login Required", "desc": "No account, no signup. Just open and use." },
+      "privacy": { "title": "Privacy First",     "desc": "Everything runs in your browser. Nothing is sent to our servers." }
+    }
+  },
+  "footer": {
+    "tagline": "Free online text tools. No login, no tracking.",
+    "tools": "Tools",
+    "company": "Company",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  },
+  "common": {
+    "copy": "Copy",
+    "clear": "Clear",
+    "input": "Input",
+    "output": "Output",
+    "result": "Result",
+    "generate": "Generate",
+    "convert": "Convert",
+    "paste": "Paste text here..."
+  },
+  "wordCount": {
+    "title": "Word Counter",
+    "desc": "Count words, characters, sentences, paragraphs, and estimate reading time.",
+    "placeholder": "Type or paste your text here...",
+    "words": "Words",
+    "chars": "Characters",
+    "charsNoSpace": "Chars (no spaces)",
+    "sentences": "Sentences",
+    "paragraphs": "Paragraphs",
+    "readTime": "Read time",
+    "minutes": "min read"
+  },
+  "caseConvert": {
+    "title": "Case Converter",
+    "desc": "Convert text between different case formats instantly.",
+    "placeholder": "Type or paste your text here...",
+    "upper": "UPPER CASE",
+    "lower": "lower case",
+    "title": "Title Case",
+    "sentence": "Sentence case",
+    "camel": "camelCase",
+    "pascal": "PascalCase",
+    "snake": "snake_case",
+    "kebab": "kebab-case",
+    "dot": "dot.case",
+    "constant": "CONSTANT_CASE"
+  },
+  "lorem": {
+    "title": "Lorem Ipsum Generator",
+    "desc": "Generate placeholder lorem ipsum text for your designs and prototypes.",
+    "type": "Type",
+    "paragraphs": "Paragraphs",
+    "sentences": "Sentences",
+    "words": "Words",
+    "count": "Count",
+    "startWithLorem": "Start with \"Lorem ipsum\"",
+    "generate": "Generate"
+  },
+  "clean": {
+    "title": "Text Cleaner",
+    "desc": "Clean and format text by removing unwanted characters and whitespace.",
+    "placeholder": "Paste your text here...",
+    "trimLines": "Trim line whitespace",
+    "removeExtraSpaces": "Remove extra spaces",
+    "removeEmptyLines": "Remove empty lines",
+    "removeNumbers": "Remove numbers",
+    "removeSpecial": "Remove special characters",
+    "removePunctuation": "Remove punctuation",
+    "toSingleLine": "Join to single line",
+    "apply": "Apply"
+  },
+  "lines": {
+    "title": "Line Tools",
+    "desc": "Sort, deduplicate, reverse, shuffle and number lines of text.",
+    "placeholder": "Paste your lines here, one per line...",
+    "sortAZ": "Sort A → Z",
+    "sortZA": "Sort Z → A",
+    "sortLen": "Sort by length",
+    "dedupe": "Remove duplicates",
+    "reverse": "Reverse order",
+    "shuffle": "Shuffle",
+    "number": "Number lines",
+    "trim": "Trim each line",
+    "lineCount": "lines"
+  },
+  "slug": {
+    "title": "Slug Generator",
+    "desc": "Convert any text into a clean, URL-friendly slug.",
+    "placeholder": "Enter your text here...",
+    "separator": "Separator",
+    "hyphen": "Hyphen (-)",
+    "underscore": "Underscore (_)",
+    "lowercase": "Lowercase",
+    "result": "Slug"
+  },
+  "about": {
+    "title": "About TextKit",
+    "intro": "TextKit is a collection of free, browser-based text processing tools. No accounts, no tracking, no nonsense.",
+    "fast": "Fast & Instant",
+    "fastDesc": "All tools run entirely in your browser with no server round-trips.",
+    "private": "Private",
+    "privateDesc": "Your text never leaves your device. Everything stays on your machine.",
+    "available": "Always Available",
+    "availableDesc": "No login, no rate limits. Open the site and start working immediately.",
+    "contact": "Questions or feedback? Reach us at"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: April 2026",
+    "noDataTitle": "No data collection",
+    "noDataBody": "TextKit does not collect, store, or transmit any personal data or tool inputs. All processing happens locally in your browser.",
+    "analyticsTitle": "Analytics",
+    "analyticsBody": "We collect anonymous, aggregated visit counts. No cookies, no fingerprinting, no IP logging.",
+    "adTitle": "Advertising",
+    "adBody": "We use Google AdSense to display ads. Google may use cookies to serve ads based on your prior visits.",
+    "contactTitle": "Contact",
+    "contactBody": "If you have questions, contact us at"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "updated": "Last updated: April 2026",
+    "useTitle": "Use of service",
+    "useBody": "TextKit provides free online text tools for personal and professional use. By using this site you agree to use it lawfully.",
+    "warrantyTitle": "No warranty",
+    "warrantyBody": "All tools are provided as-is without any warranty. Always verify critical results independently.",
+    "liabilityTitle": "Limitation of liability",
+    "liabilityBody": "TextKit and its operators are not liable for any damages arising from the use of the tools on this site.",
+    "changesTitle": "Changes",
+    "changesBody": "We may update these terms at any time. Continued use of the site constitutes acceptance of any changes.",
+    "contactTitle": "Contact",
+    "contactBody": "For questions, contact"
+  }
+}
